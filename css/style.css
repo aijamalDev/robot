@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #020A18;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-a a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 0 20px;
+}
+
+.navbar-logo h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: #3A68B8;
+    padding: 0 20px;
+
+}
+
+.btn {
+    width: 100px;
+    height: 35px;
+    background: #3A68B8;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.next h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 540;
+    font-size: 15px;
+    color: #3A68B8;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.next h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.next p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.71);
+    margin-bottom: 30px;
+    opacity: 0.7;
+}
+
+.next button {
+    width: 141px;
+    height: 47px;
+    background: #3A68B8;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.log-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nex-img {
+    width: 500px;
+    margin: 20px;
+}
+
+
+.log-img img {
+    width: 150px;
+}
+
+.butn {
+    width: 120px;
+    height: 50px;
+    background: #3A68B8;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.app h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+
+.app p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    opacity: 0.7;
+}
+
+.Apply {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-img {
+    width: 500px;
+    margin: 25px;
+}
+
+.naxly {
+    width: 300px;
+    height: 350px;
+    /*background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -41.9%, #FFFFFF 115.68%);*/
+    /*opacity: 0.1;*/
+    backdrop-filter: blur(200px);
+    /* Note: backdrop-filter has minimal browser support */
+    background: #FFFFFF33;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.naxly h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    opacity: 0.7;
+}
+
+.naxly img {
+    margin-bottom: 47px;
+}
+
+
+.naxly p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.nexly-gen {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.client h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.client p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+.clnt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#client {
+    padding: 50px 0;
+}
+
+#Naxly {
+    padding: 50px 0;
+}
+
+#Apply {
+    padding: 50px 0;
+}
+
+.footer h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.9627px;
+    color: #3A68B8;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-family: 'Circular Std', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 10px 0;
+}
+
+.footer-nav a {
+    font-family: 'Circular Std', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+.footer-nav div {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.footer-text h1 {
+    font-family: 'Circular Std', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.footer-text p {
+    font-family: 'Circular Std', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.footer-icons div {
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.footer-gen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gen{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.footer{
+    margin-bottom: 30px;
+}
+
+.footer-nav-gen{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.text-footer h1{
+    font-family: 'Circular Std',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+
+.text-footer p{
+    font-family: 'Circular Std',sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-bottom: 29px;
+}
+.text-footer a{
+    font-family: 'Circular Std',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 21px;
+}
+
+.text-footer{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.nex-img {
+    width: 500px;
+    margin: 20px;
+}
+
+.img-cln{
+
+}
